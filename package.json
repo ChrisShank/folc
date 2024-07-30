@@ -1,0 +1,27 @@
+{
+  "name": "folc",
+  "version": "0.0.1",
+  "description": "Utilities to more easily make folk web pages",
+  "license": "MIT",
+  "author": "Christopher Shank",
+  "keywords": [
+    "custom elements"
+  ],
+  "homepage": "https://github.com/chrisshank/folc#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisshank/folc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisshank/folc/issues"
+  },
+  "type": "module",
+  "exports": {
+    "./*": {
+      "import": "./src/*.js"
+    }
+  },
+  "files": [
+    "src"
+  ]
+}
